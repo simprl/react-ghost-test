@@ -1,0 +1,43 @@
+{
+  "name": "react-ghost-test",
+  "version": "0.1.0",
+  "description": "test utils for react-ghost library",
+  "main": "lib/index.js",
+  "module": "es/index.js",
+  "files": [
+    "lib",
+    "es",
+    "src"
+  ],
+  "scripts": {
+    "build": "rollup -c"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/simprl/react-ghost-test.git"
+  },
+  "keywords": [
+    "react-ghost",
+    "react",
+    "redux",
+    "test",
+    "utils",
+    "dispatch",
+    "wait",
+    "for",
+    "state",
+    "change"
+  ],
+  "author": "simprl",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/simprl/react-ghost-test/issues"
+  },
+  "homepage": "https://github.com/simprl/react-ghost-test#readme",
+  "devDependencies": {
+    "rollup": "^2.33.3"
+  },
+  "dependencies": {
+    "react-test-renderer": "^17.0.1"
+  }
+}
